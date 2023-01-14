@@ -11,6 +11,71 @@ body{
     width: 100%;
     max-width: 1620px;
 }
+
+
+
+
+
+.main-container-top{
+    margin: 0px 25px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.images{
+
+}
+.image{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   row-gap: 25px;
+   column-gap: 25px;
+}
+.images img{
+    width: 342px;height: 342px;
+
+}
+.aboutSection{
+margin-left: 75px;
+width:535px;
+
+}
+
+.aboutSection p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+
+.joinButton {
+    border: 0px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+@media only screen and (max-width:576px){
+    .image{
+        grid-template-columns: repeat(1,1fr);
+     
+    }
+    .main-container-top{
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .aboutSection{
+        margin-left: 5px;
+        text-align: center;
+        width: 100%;
+
+        }
+}
 /*.header {
     background-color: #FFF4E7;
 }
@@ -67,16 +132,7 @@ nav li {
     margin: 0px auto;
 }
 
-.joinButton {
-    border: 0px;
-    background: #FF900E;
-    padding: 20px 25px;
-    color: #FFF;
-    font-weight: 700;
-    font-size: 16px;
-    margin-top: 32px;
-    border-radius: 5px;
-}
+
 
 .bannerImage {
     width: 100%;
@@ -156,7 +212,7 @@ nav li {
 }
 /* Buttom Section of Main Section */
 .mainButtom {
-    margin-left: 240px;
+    margin: 25px auto;
 }
 .mainButtom h1 {
     font-weight: 700;

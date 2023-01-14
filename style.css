@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 85px;
     margin-bottom: 100px;
 }
 
@@ -133,11 +134,15 @@ body {
 }
 
 .rightSide {
-    position: absolute;
-    height: 1060px;
-    margin-top: -1050px;
-    margin-left: 625px;
+    float: left;
+margin-top: -1050px;
 
+}
+@media only screen and (max-width:576px) {
+    .rightSide{
+        width: 100%;
+        float: left;
+    }
 }
 
 .rightSide img {
@@ -173,8 +178,21 @@ body {
     width: 100%;
 }
 
-/*.header {
+
+
+.banner img {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+
+.header {
     background-color: #FFF4E7;
+    width: 100%;
+
 }
 
 nav {
@@ -191,7 +209,7 @@ nav h2 {
     font-size: 45px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 230px;
+    margin-left: 50px;
 }
 
 nav ul {
@@ -200,15 +218,24 @@ nav ul {
     font-weight: 500;
     font-size: 18px;
     color: #424242;
-    margin-right: 240px;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 576) {
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 nav li {
     list-style: none;
 }
-.bannerPhoto{
+
+.bannerPhoto {
     margin: 0px 240px 45px;
 }
+
 .headline {
     text-align: center;
 }
@@ -252,7 +279,9 @@ nav li {
     row-gap: 25px;
     margin-right: 75px;
 
-}*/
+}
+
+*/
 
 /*.aboutSection h2 {
     margin-bottom: 25px;
@@ -319,7 +348,8 @@ nav li {
     font-size: 45px;
     line-height: 53px;
     color: #131313;
-    margin-bottom: 25px;margin-left: 50px;
+    margin-bottom: 25px;
+    margin-left: 50px;
 }
 
 .mainButtom p {
@@ -337,12 +367,14 @@ nav li {
     display: flex;
     justify-content: space-around;
 }
+
 @media only screen and (max-width:576px) {
-    .projectDiv{
+    .projectDiv {
         width: 100%;
-       flex-direction: column;
+        flex-direction: column;
     }
-    .mainButtom p{
+
+    .mainButtom p {
         width: 100%;
     }
 }
@@ -382,12 +414,13 @@ nav li {
 }
 
 
-.extraSection{
+.extraSection {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
 }
-.extraSection h3{
+
+.extraSection h3 {
     margin-bottom: 10px;
 }
 
@@ -420,6 +453,7 @@ nav li {
     justify-content: space-around;
     margin: 0px 75px;
 }
+
 @media only screen and (max-width:576px) {
     .sponsorLogo {
         flex-direction: column;

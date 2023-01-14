@@ -1,0 +1,257 @@
+:root {
+    --Primary-fontPopinons: 'Work Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--Primary-fontPopinons);
+}
+body{
+    width: 100%;
+    max-width: 1620px;
+}
+/*.header {
+    background-color: #FFF4E7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+nav h2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 230px;
+}
+
+nav ul {
+    display: flex;
+    gap: 35px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-right: 240px;
+}
+
+nav li {
+    list-style: none;
+}
+.bannerPhoto{
+    margin: 0px 240px 45px;
+}
+.headline {
+    text-align: center;
+}
+
+.headline h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 42px;
+}
+
+.headline p {
+    width: 100%;
+    max-width: 868px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px auto;
+}
+
+.joinButton {
+    border: 0px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.bannerImage {
+    width: 100%;
+    margin: 50px 240px 45px 240px;
+
+
+}
+
+.mainTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 300px 130px 300px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-right: 75px;
+
+}*/
+
+.aboutSection h2 {
+    margin-bottom: 25px;
+}
+
+.aboutSection p {
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+.mainMiddle {
+    margin: 0 auto;
+    border: 1px solid #cf0a7d;
+    Width: 1440px;
+    Height: 1059px;
+    display: flex;
+}
+
+
+.headding {
+    border-left: 5px solid #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    width: 468px;
+    height: 106px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+
+}
+
+
+.headContant {
+    Width: 586px;
+    Height: 171px;
+    padding: 30px 42px 30px;
+    box-shadow: #cf0a7d;
+}
+
+.headContant h4 {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+.headContant p {
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* Buttom Section of Main Section */
+.mainButtom {
+    margin-left: 240px;
+}
+.mainButtom h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.mainButtom p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 542px;
+    height: 52px;
+    margin-bottom: 100px;
+}
+.projectDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+    margin: 0 290px;
+
+
+}
+.info {
+    margin-top: 40px;
+}
+.info h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-top: 10px;
+}
+.info p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin-top: 5px;
+}
+.project {
+    Width: 240px;
+    Height: 240px;
+    border: 1px solid #FF900E;
+    margin: 0px auto;
+    padding: 45px 35px;
+    margin-bottom: 180px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* hover for project information */
+.project:hover {
+    transition: transform 1s;
+    transform: rotate(-360deg);
+}
+.sponsor {
+    text-align: center;
+}
+.sponsor h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.sponsor p {
+    width: 542px;
+    height: 52px;
+    color: #727272;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.sponsor img {
+    filter: grayscale();
+}
+.sponsorLogo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 240px 130px;
+}
+.footer{
+    background-color: #FFF4E7;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 215px;
+    padding: 40px 410px;
+}
+.footer p {
+  
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+ 
+}

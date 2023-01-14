@@ -7,48 +7,46 @@
     padding: 0;
     font-family: var(--Primary-fontPopinons);
 }
-body{
+
+body {
     width: 100%;
     max-width: 1620px;
 }
 
-
-
-
-
-.main-container-top{
+.main-container-top {
     margin: 0px 25px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
+}
 
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.images img {
+    width: 342px;
+    height: 342px;
 
 }
 
-.image{
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   justify-content: center;
-   align-items: center;
-   row-gap: 25px;
-   column-gap: 25px;
-}
-.images img{
-    width: 342px;height: 342px;
-
-}
-.aboutSection{
-margin-left: 75px;
-width:535px;
+.aboutSection {
+    margin-left: 75px;
+    width: 535px;
 
 }
 
-.aboutSection p{
+.aboutSection p {
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
 }
 
 .joinButton {
@@ -61,25 +59,119 @@ color: #727272;
     margin-top: 32px;
     border-radius: 5px;
 }
-@media only screen and (max-width:576px){
-    .images{
+
+@media only screen and (max-width:576px) {
+    .images {
         margin-left: 10px;
     }
-    .image{
-        grid-template-columns: repeat(1,1fr);
+
+    .image {
+        grid-template-columns: repeat(1, 1fr);
         width: 100%;
     }
-    .main-container-top{
+
+    .main-container-top {
         flex-direction: column;
         margin-left: 5px;
     }
-    .aboutSection{
+
+    .aboutSection {
         margin-left: 5px;
         text-align: center;
         width: 100%;
-        }
+    }
 }
 
+/* close ----------------------------------------------*/
+
+/* Middle section -------------------------------------*/
+.main-container-middle {
+    /* border: 1px solid red; */
+    max-width: 575px;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.headContant p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.contant-1 {
+    padding: 30px 35px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contant-1 h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+
+.contant-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.rightSide {
+    position: absolute;
+    height: 1060px;
+    margin-top: -1050px;
+    margin-left: 625px;
+
+}
+
+.rightSide img {
+    width: 680px;
+    height: 885px;
+}
+
+
+.ExploreBtn {
+
+    background: #FF900E;
+    padding: 45px 42px;
+    border-radius: 5px;
+    margin-top: -275px;
+    margin-left: 600px;
+    position: absolute;
+    border: none;
+
+}
+
+.ExploreBtn p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    "
+
+}
+
+.leftAndRight {
+    border: 1px solid slateblue;
+    width: 100%;
+}
 
 /*.header {
     background-color: #FFF4E7;
@@ -162,7 +254,7 @@ nav li {
 
 }*/
 
-.aboutSection h2 {
+/*.aboutSection h2 {
     margin-bottom: 25px;
 }
 
@@ -209,23 +301,27 @@ nav li {
     line-height: 23px;
     color: #131313;
 }
+
 .headContant p {
     line-height: 26px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
 }
+
 /* Buttom Section of Main Section */
 .mainButtom {
     margin: 25px auto;
 }
+
 .mainButtom h1 {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     color: #131313;
-    margin-bottom: 25px;
+    margin-bottom: 25px;margin-left: 50px;
 }
+
 .mainButtom p {
     font-weight: 400;
     font-size: 16px;
@@ -233,26 +329,33 @@ nav li {
     color: #727272;
     width: 542px;
     height: 52px;
+    margin-left: 50px;
     margin-bottom: 100px;
 }
+
 .projectDiv {
     display: flex;
-    justify-content: space-between;
-    gap: 125px;
-    margin: 0 290px;
-
-
+    justify-content: space-around;
 }
-.info {
-    margin-top: 40px;
+@media only screen and (max-width:576px) {
+    .projectDiv{
+        width: 100%;
+       flex-direction: column;
+    }
+    .mainButtom p{
+        width: 100%;
+    }
 }
+
 .info h3 {
     font-weight: 600;
     font-size: 45px;
     line-height: 53px;
     color: #424242;
     margin-top: 10px;
+    text-align: center;
 }
+
 .info p {
     font-weight: 600;
     font-size: 20px;
@@ -260,24 +363,38 @@ nav li {
     color: #727272;
     margin-top: 5px;
 }
+
 .project {
-    Width: 240px;
-    Height: 240px;
+    Width: 150px;
+    Height: 150px;
     border: 1px solid #FF900E;
-    margin: 0px auto;
+    margin: 0px 50px;
     padding: 45px 35px;
     margin-bottom: 180px;
     text-align: center;
     border-radius: 10px;
 }
+
 /* hover for project information */
 .project:hover {
     transition: transform 1s;
     transform: rotate(-360deg);
 }
+
+
+.extraSection{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.extraSection h3{
+    margin-bottom: 10px;
+}
+
 .sponsor {
     text-align: center;
 }
+
 .sponsor h1 {
     font-weight: 700;
     font-size: 45px;
@@ -285,6 +402,7 @@ nav li {
     color: #131313;
     margin-bottom: 25px;
 }
+
 .sponsor p {
     width: 542px;
     height: 52px;
@@ -292,27 +410,36 @@ nav li {
     margin: 0 auto;
     margin-bottom: 50px;
 }
+
 .sponsor img {
     filter: grayscale();
 }
+
 .sponsorLogo {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 240px 130px;
+    justify-content: space-around;
+    margin: 0px 75px;
 }
-.footer{
+@media only screen and (max-width:576px) {
+    .sponsorLogo {
+        flex-direction: column;
+        column-gap: 50px;
+    }
+}
+
+.footer {
     background-color: #FFF4E7;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-top: 130px;
     margin-bottom: 215px;
-    padding: 40px 410px;
+    width: 100%;
 }
+
 .footer p {
-  
+    padding: 40px 25px;
     text-align: center;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #424242;
- 
+
 }

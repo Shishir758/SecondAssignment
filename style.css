@@ -23,10 +23,9 @@ body{
     justify-content: center;
     align-items: center;
 
-}
-.images{
 
 }
+
 .image{
    display: grid;
    grid-template-columns: repeat(2,1fr);
@@ -63,10 +62,12 @@ color: #727272;
     border-radius: 5px;
 }
 @media only screen and (max-width:576px){
+    .images{
+        margin-left: 10px;
+    }
     .image{
         grid-template-columns: repeat(1,1fr);
         width: 100%;
-     
     }
     .main-container-top{
         flex-direction: column;
@@ -76,9 +77,10 @@ color: #727272;
         margin-left: 5px;
         text-align: center;
         width: 100%;
-
         }
 }
+
+
 /*.header {
     background-color: #FFF4E7;
 }

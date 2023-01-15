@@ -270,7 +270,7 @@ border: none;
 }
 
 .sponsor p {
-    width: 542px;
+    max-width: 542px;
     height: 52px;
     color: #727272;
     margin: 0 auto;

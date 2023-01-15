@@ -52,11 +52,6 @@ nav ul {
 nav li {
     list-style: none;
 }
-
-/*.bannerPhoto {
-    margin: 0px 240px 45px;
-}*/
-
 .headline {
     text-align: center;
 }
@@ -280,7 +275,7 @@ border: none;
     color: #727272;
     margin: 0 auto;
     margin-bottom: 50px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .sponsor img {
@@ -313,7 +308,7 @@ border: none;
 }
 
 /* Media Quary */
-
+/* Responsive for Nav */
 @media only screen and (max-width: 576) {
     nav ul {
         flex-direction: column;
@@ -327,7 +322,7 @@ border: none;
        margin-bottom: 10px;
     }
 }
-
+/* Responsive for main-content */
 @media only screen and (max-width:576px) {
     .main-containt{
     flex-direction: column;
@@ -338,18 +333,18 @@ border: none;
     
     }
     }
-
+/* Responsive for about Project */
 @media only screen and (max-width:576px) {
     .projectDiv {
         width: 100%;
         flex-direction: column;
     }
-
+/* Responsive for main-buttom */
     .mainButtom p {
         width: 100%;
     }
 }
-
+/* Responsive for main-top */
 @media only screen and (max-width:576px) {
     .images {
         margin-left: 10px;
@@ -359,12 +354,12 @@ border: none;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
     }
-
+/* Responsive for Nav */
     .main-container-top {
         flex-direction: column;
         margin-left: 5px;
     }
-
+/* Responsive for top right about Section */
     .aboutSection {
         margin-left: 5px;
         text-align: center;
@@ -372,7 +367,7 @@ border: none;
     }
 }
 
-
+/* Responsive for Sponsor Section */
 @media only screen and (max-width:576px) {
     .sponsorLogo {
         flex-direction: column;

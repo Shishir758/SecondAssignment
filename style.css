@@ -275,7 +275,7 @@ border: none;
     color: #727272;
     margin: 0 auto;
     margin-bottom: 50px;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .sponsor img {
@@ -372,8 +372,5 @@ border: none;
     .sponsorLogo {
         flex-direction: column;
         column-gap: 50px;
-    }
-    .sponsor p{
-        width: 100%;
     }
 }
